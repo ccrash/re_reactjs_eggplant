@@ -7,6 +7,7 @@
  */
 
 import React, {Component} from 'react';
+import EggPlant from './third_part/eggplant'
 import {Platform, StyleSheet, Text, View} from 'react-native';
 
 const instructions = Platform.select({
@@ -18,6 +19,12 @@ const instructions = Platform.select({
 
 type Props = {};
 export default class App extends Component<Props> {
+
+  componentDidMount() {
+    const eggPlant = new EggPlant()
+    eggPlant.init('cfa4d637-4e77-43a3-9704-d21432775034')
+  }
+
   render() {
     return (
       <View style={styles.container}>

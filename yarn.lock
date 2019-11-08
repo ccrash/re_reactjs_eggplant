@@ -662,6 +662,13 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@eggplantio/real-user-data-sdk-js@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@eggplantio/real-user-data-sdk-js/-/real-user-data-sdk-js-1.0.13.tgz#116be9e4a75a28e3442f675ddde6e58dcde6ec16"
+  integrity sha512-hviB7kV1HOabOuA/vpnUwM/w22k5/33W0zgBM0I/Zga/rP5oC3Mm6fSelr0eJPNh46uInhvKMOVbYd02fGj+0g==
+  dependencies:
+    ua-parser-js "^0.7.19"
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
@@ -5856,7 +5863,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-ua-parser-js@^0.7.18:
+ua-parser-js@^0.7.18, ua-parser-js@^0.7.19:
   version "0.7.20"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
   integrity sha512-8OaIKfzL5cpx8eCMAhhvTlft8GYF8b2eQr6JkCyVdrgjcytyOmPCXrqXFcUnhonRpLlh5yxEZVohm6mzaowUOw==
